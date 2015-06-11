@@ -115,6 +115,7 @@ public class Translate {
             if (userInput.next().equalsIgnoreCase("y"))
             {
                 userDone = true;
+                System.out.println("A copy of the translation dialog called translation.txt is available in the parent directory.");
                 out.writeObject("y");
                 out.flush();
             }    
